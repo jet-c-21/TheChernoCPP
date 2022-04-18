@@ -5,16 +5,10 @@
 //
 #include <iostream>
 #include "Log.hpp"
+#include "Math.hpp"
 
-
-static int Multiply(int a, int b) {
+int Multiply(int a, int b) {
   Log("Multiply");
   int res = a * b;
   return res;
-}
-
-int main() {
-  std::cout << Multiply(5, 8) << std::endl;
-  std::cin.get();
-
 }
