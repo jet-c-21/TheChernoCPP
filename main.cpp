@@ -1,15 +1,10 @@
 #include <iostream>
 #include "Math.hpp"
+#include "ep16_pointer_tutorial/pointer_tutorial.hpp"
+
 
 int main() {
-//  std::cout << Multiply(5, 8) << std::endl;
-  float variable = 5.5;
-  double var = 5.2;
-  bool b = true;
+  pointer_tutorial_main();
 
-  std::cout << sizeof(variable) << std::endl;
-  std::cout << sizeof(var) << std::endl;
-  std::cout << sizeof(b) << std::endl;
-//  std::cin.get();
-
+  return 0;
 }
