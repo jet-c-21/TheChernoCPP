@@ -12,6 +12,7 @@ void pointer_tutorial_main() {
 
   delete[] buffer;
 
+  std::cout << "123";
   std::cin.get();
 
 }
