@@ -6,13 +6,7 @@
 #include "ep18_class_in_cpp/class_in_cpp.hpp"
 #include "ep20_first_class/first_class.hpp"
 #include "ep21_static_in_cpp/static_in_cpp.hpp"
-
-//int s_var = 10;
-extern int s_var;
-
-void function() {
-
-}
+#include "ep22_struct_in_cls_and_struct/struct_in_cls_and_struct.hpp"
 
 int main() {
 //  test_main();
@@ -20,7 +14,7 @@ int main() {
 //  ref_tutorial_main();
 //  class_in_cpp_main();
 //  first_class_main();
-  static_in_cpp_main();
-  std::cout << s_var << std::endl;
+  struct_in_cls_and_struct_main();
+
   return 0;
 }
