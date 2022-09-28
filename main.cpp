@@ -7,6 +7,7 @@
 #include "ep20_first_class/first_class.hpp"
 #include "ep21_static_in_cpp/static_in_cpp.hpp"
 #include "ep22_struct_in_cls_and_struct/struct_in_cls_and_struct.hpp"
+#include "ep24_constructors_in_cpp/constructors_in_cpp.hpp"
 
 int main() {
 //  test_main();
@@ -14,7 +15,9 @@ int main() {
 //  ref_tutorial_main();
 //  class_in_cpp_main();
 //  first_class_main();
-  struct_in_cls_and_struct_main();
+//  struct_in_cls_and_struct_main();
+  constructor_in_cpp_main();
+
 
   return 0;
 }
