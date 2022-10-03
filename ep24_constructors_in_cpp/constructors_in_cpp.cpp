@@ -7,11 +7,16 @@ class Entity {
   Entity() {
     x = 0.0f;
     y = 0.0f;
+    std::cout << "Created Entity!" << std::endl;
   }
 
   Entity(float x_val, float y_val) {
     x = x_val;
     y = y_val;
+  }
+
+  ~Entity(){
+    std::cout << "Destroyed Entity!" << std::endl;
   }
 
 //  void init() {
@@ -31,9 +36,11 @@ class Entity {
 
 void constructor_in_cpp_main() {
 //  Entity e;
-  Entity e(10.f, 5.f);
-  std::cout << e.x << std::endl;
+//  Entity e(10.f, 5.f);
+  Entity e;
+//  std::cout << e.x << std::endl;
   e.print();
+  e.~Entity();
 //  e.greet();
 //  std::cout << e.x;
 }
