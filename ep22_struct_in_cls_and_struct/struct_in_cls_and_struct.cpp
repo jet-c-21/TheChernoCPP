@@ -1,6 +1,6 @@
 #include "struct_in_cls_and_struct.hpp"
 
-//struct Entity{
+//struct MyEntity{
 //  int x, y;
 //
 //  void print(){
@@ -10,14 +10,14 @@
 
 
 void struct_in_cls_and_struct_main() {
-//  Entity e0;
+//  MyEntity e0;
 //  e0.x = 2;
 //  e0.y = 3;
 //
-//  Entity e1;
+//  MyEntity e1;
 //  e1.x = 5;
 //  e1.y = 8;
 
-//  Entity::print();
+//  MyEntity::print();
 
 }

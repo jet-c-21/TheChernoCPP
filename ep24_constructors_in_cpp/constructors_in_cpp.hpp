@@ -1,5 +1,5 @@
 #include <iostream>
 
-class Entity;
+class MyEntity;
 
 void constructor_in_cpp_main();
