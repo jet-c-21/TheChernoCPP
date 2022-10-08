@@ -37,3 +37,4 @@ void interface_pure_func_main() {
   PlayerEp26* p = new PlayerEp26("puff");
   Print(p);
 }
+

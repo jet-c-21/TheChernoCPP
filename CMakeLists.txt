@@ -11,4 +11,4 @@ file(GLOB TheChernoCPPSrc
         "ep*/*"
         )
 
-add_executable(TheChernoCPP main.cpp ${TheChernoCPPSrc} ep26_interface_pure_function/interface_pure_function.cpp ep26_interface_pure_function/interface_pure_function.hpp)
+add_executable(TheChernoCPP main.cpp ${TheChernoCPPSrc} ep26_interface_pure_function/interface_pure_function.cpp ep26_interface_pure_function/interface_pure_function.hpp ep27_visibility_in_cpp/visibility_in_cpp.cpp ep27_visibility_in_cpp/visibility_in_cpp.h)
