@@ -8,7 +8,7 @@ class Printable {
 };
 
 // interface is just class in c++
-class EntityEp26 : public Printable {
+class EntityEp28 : public Printable {
  public:
 //  virtual std::string GetName() = 0; // set to be pure virtual
   virtual std::string GetName(){return "Entity";}
@@ -16,11 +16,11 @@ class EntityEp26 : public Printable {
 };
 
 
-class PlayerEp26 : public EntityEp26 {
+class PlayerEp28 : public EntityEp28 {
  private:
   std::string m_Name;
  public:
-  PlayerEp26(const std::string &name) : m_Name(name) {}
+  PlayerEp28(const std::string &name) : m_Name(name) {}
 
   std::string GetName() override { return m_Name; }
   std::string GetClassName() override {return "Player";}
@@ -31,10 +31,10 @@ void Print(Printable* obj) {
 }
 
 void interface_pure_func_main() {
-  EntityEp26* e = new EntityEp26();
+  EntityEp28* e = new EntityEp28();
   Print(e);
 
-  PlayerEp26* p = new PlayerEp26("puff");
+  PlayerEp28* p = new PlayerEp28("puff");
   Print(p);
 }
 
