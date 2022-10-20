@@ -21,6 +21,7 @@ class Player : public MyEntity{
 
 
 void inheritance_in_cpp_main() {
+  std::cout << sizeof(MyEntity)<< std::endl;
   std::cout << sizeof(Player)<< std::endl;
   Player player;
   player.Move(5, 5);
