@@ -8,13 +8,18 @@
 #include "ep21_static_in_cpp/static_in_cpp.hpp"
 #include "ep22_struct_in_cls_and_struct/struct_in_cls_and_struct.hpp"
 #include "ep24_constructors_in_cpp/constructors_in_cpp.hpp"
-#include "ep25_inheritance_in_cpp/inheritance_in_cpp.hpp"
-#include "ep26_virtual_func_in_cpp/virtual_func_in_cpp.hpp"
+#include "ep26_inheritance_in_cpp/inheritance_in_cpp.hpp"
+#include "ep27_virtual_func_in_cpp/virtual_func_in_cpp.hpp"
+#include "ep28_interface_pure_function/interface_pure_function.hpp"
+#include "ep29_visibility_in_cpp/visibility_in_cpp.h"
+#include "ep30_array_in_cpp/array_in_cpp.hpp"
 #include "ep31_string_in_cpp/string_in_cpp.hpp"
 #include "ep32_string_literals_in_cpp/string_literals_in_cpp.hpp"
 #include "ep33_const_in_cpp/const_in_cpp.hpp"
 #include "ep34_mutable_kw_in_cpp/mutable_kw_in_cpp.hpp"
 #include "ep35_member_init_ls_in_cpp/member_init_ls_in_cpp.hpp"
+#include "ep36_ternary_ops_in_cpp/ternary_ops_in_cpp.hpp"
+
 
 int main() {
 //  test_main();
@@ -30,7 +35,8 @@ int main() {
 //  string_literals_in_cpp();
 //  const_in_cpp_main();
 //  mutable_kw_in_cpp();
-  member_init_ls_in_cpp_main();
+//  member_init_ls_in_cpp_main();
+  ternary_ops_in_cpp_main();
 
   return 0;
 }
