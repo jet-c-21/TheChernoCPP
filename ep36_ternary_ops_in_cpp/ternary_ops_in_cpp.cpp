@@ -13,6 +13,9 @@ void ternary_ops_in_cpp_main() {
 
   std::string rank = s_Level > 10 ? "Master" : "Beginner";
 
+  std::cout << s_Speed << std::endl;
+  std::cout << rank << std::endl;
+
   std::string otherRank;
   if (s_Level > 10)
     otherRank = "";
