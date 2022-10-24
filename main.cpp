@@ -19,7 +19,7 @@
 #include "ep34_mutable_kw_in_cpp/mutable_kw_in_cpp.hpp"
 #include "ep35_member_init_ls_in_cpp/member_init_ls_in_cpp.hpp"
 #include "ep36_ternary_ops_in_cpp/ternary_ops_in_cpp.hpp"
-
+#include "ep37_create_instantiate_obj/create_instantiate_obj.hpp"
 
 int main() {
 //  test_main();
@@ -36,7 +36,8 @@ int main() {
 //  const_in_cpp_main();
 //  mutable_kw_in_cpp();
 //  member_init_ls_in_cpp_main();
-  ternary_ops_in_cpp_main();
+//  ternary_ops_in_cpp_main();
+  create_instantiate_obj_main();
 
   return 0;
 }
