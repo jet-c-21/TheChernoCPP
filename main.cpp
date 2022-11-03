@@ -21,6 +21,9 @@
 #include "ep36_ternary_ops_in_cpp/ternary_ops_in_cpp.hpp"
 #include "ep37_create_instantiate_obj/create_instantiate_obj.hpp"
 #include "ep40_op_overload_in_cpp/op_overload_in_cpp.hpp"
+#include "ep42_obj_lifetime_in_cpp/obj_lifetime_in_cpp.hpp"
+#include "ep43_smart_ptr_in_cpp/smart_ptr_in_cpp.hpp"
+#include "ep44_copy_constructor/copy_constructor.hpp"
 
 int main() {
 //  test_main();
@@ -39,7 +42,10 @@ int main() {
 //  member_init_ls_in_cpp_main();
 //  ternary_ops_in_cpp_main();
 //  create_instantiate_obj_main();
-  op_overload_in_cpp_main();
+//  op_overload_in_cpp_main();
+//  obj_lifetime_in_cpp();
+//  smart_ptr_in_cpp_main();
+  copy_constructor_main();
 
   return 0;
 }
