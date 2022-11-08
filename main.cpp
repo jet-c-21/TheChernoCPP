@@ -24,6 +24,8 @@
 #include "ep42_obj_lifetime_in_cpp/obj_lifetime_in_cpp.hpp"
 #include "ep43_smart_ptr_in_cpp/smart_ptr_in_cpp.hpp"
 #include "ep44_copy_constructor/copy_constructor.hpp"
+#include "ep45_arrow_op/arrow_op.hpp"
+#include "ep46_dynamic_arr/dynamic_arr.hpp"
 
 int main() {
 //  test_main();
@@ -45,7 +47,9 @@ int main() {
 //  op_overload_in_cpp_main();
 //  obj_lifetime_in_cpp();
 //  smart_ptr_in_cpp_main();
-  copy_constructor_main();
+//  copy_constructor_main();
+//  arrow_op_main();
+  dynamic_arr_main();
 
   return 0;
 }
