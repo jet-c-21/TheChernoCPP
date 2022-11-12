@@ -26,6 +26,7 @@
 #include "ep44_copy_constructor/copy_constructor.hpp"
 #include "ep45_arrow_op/arrow_op.hpp"
 #include "ep46_dynamic_arr/dynamic_arr.hpp"
+#include "ep47_vector_optmz/vector_optmz.hpp"
 
 int main() {
 //  test_main();
@@ -49,7 +50,8 @@ int main() {
 //  smart_ptr_in_cpp_main();
 //  copy_constructor_main();
 //  arrow_op_main();
-  dynamic_arr_main();
+//  dynamic_arr_main();
+  vector_optimize_main();
 
   return 0;
 }
