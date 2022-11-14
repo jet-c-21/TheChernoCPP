@@ -18,7 +18,11 @@ struct Vertex{
 
 void vector_optimize_main() {
   std::vector<Vertex> vertices;
-  vertices.push_back({1,2,3});
-  vertices.push_back({4,5 ,6});
+//  vertices.push_back({1,2,3});
+//  vertices.push_back({4,5,6});
+
+  vertices.push_back(Vertex(1,2,3));
+  vertices.push_back(Vertex(4,5,6));
+  vertices.push_back(Vertex(7,8,9));
 
 }
