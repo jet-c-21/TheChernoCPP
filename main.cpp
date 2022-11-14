@@ -27,6 +27,7 @@
 #include "ep45_arrow_op/arrow_op.hpp"
 #include "ep46_dynamic_arr/dynamic_arr.hpp"
 #include "ep47_vector_optmz/vector_optmz.hpp"
+#include "ep48_local_static_in_cpp/local_static_in_cpp.hpp"
 
 int main() {
 //  test_main();
@@ -51,7 +52,9 @@ int main() {
 //  copy_constructor_main();
 //  arrow_op_main();
 //  dynamic_arr_main();
-  vector_optimize_main();
+//  vector_optimize_main();
+  local_static_in_cpp_main();
+
 
   return 0;
 }
