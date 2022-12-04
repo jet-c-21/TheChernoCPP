@@ -15,12 +15,12 @@ class Singleton {
     static Singleton instance;
     return instance;
   }
-  
+
   void Hello() {};
 
 };
 
-Singleton *Singleton::s_Instance = nullptr;
+//Singleton *Singleton::s_Instance = nullptr;
 
 void Function() {
   static int i = 0;
@@ -29,8 +29,8 @@ void Function() {
 }
 
 void local_static_in_cpp_main() {
-//  Function();
-//  Function();
+  Function();
+  Function();
 
   Singleton::Get().Hello();
 

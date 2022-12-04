@@ -55,6 +55,5 @@ int main() {
 //  vector_optimize_main();
   local_static_in_cpp_main();
 
-
   return 0;
 }
