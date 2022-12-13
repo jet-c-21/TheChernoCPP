@@ -29,6 +29,7 @@
 #include "ep47_vector_optmz/vector_optmz.hpp"
 #include "ep48_local_static_in_cpp/local_static_in_cpp.hpp"
 #include "ep53_template_in_cpp/template_in_cpp.hpp"
+#include "ep55_macros_in_cpp/macros_in_cpp.hpp"
 
 int main() {
 //  test_main();
@@ -55,7 +56,8 @@ int main() {
 //  dynamic_arr_main();
 //  vector_optimize_main();
 //  local_static_in_cpp_main();
-  template_in_cpp_main();
+//  template_in_cpp_main();
+  macros_in_cpp_main();
 
   return 0;
 }
