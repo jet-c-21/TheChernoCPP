@@ -1,0 +1,1 @@
+void auto_kw_in_cpp_main();

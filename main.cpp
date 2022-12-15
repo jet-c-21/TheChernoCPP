@@ -30,6 +30,7 @@
 #include "ep48_local_static_in_cpp/local_static_in_cpp.hpp"
 #include "ep53_template_in_cpp/template_in_cpp.hpp"
 #include "ep55_macros_in_cpp/macros_in_cpp.hpp"
+#include "ep56_auto_kw_in_cpp/auto_kw_in_cpp.hpp"
 
 int main() {
 //  test_main();
@@ -57,7 +58,8 @@ int main() {
 //  vector_optimize_main();
 //  local_static_in_cpp_main();
 //  template_in_cpp_main();
-  macros_in_cpp_main();
+//  macros_in_cpp_main();
+  auto_kw_in_cpp_main();
 
   return 0;
 }
