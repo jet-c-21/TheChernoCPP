@@ -31,6 +31,7 @@
 #include "ep53_template_in_cpp/template_in_cpp.hpp"
 #include "ep55_macros_in_cpp/macros_in_cpp.hpp"
 #include "ep56_auto_kw_in_cpp/auto_kw_in_cpp.hpp"
+#include "ep57_static_arr_in_cpp/static_arr_in_cpp.hpp"
 
 int main() {
 //  test_main();
@@ -59,7 +60,8 @@ int main() {
 //  local_static_in_cpp_main();
 //  template_in_cpp_main();
 //  macros_in_cpp_main();
-  auto_kw_in_cpp_main();
+//  auto_kw_in_cpp_main();
+  static_arr_in_cpp_main();
 
   return 0;
 }
