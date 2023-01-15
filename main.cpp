@@ -33,6 +33,8 @@
 #include "ep56_auto_kw_in_cpp/auto_kw_in_cpp.hpp"
 #include "ep57_static_arr_in_cpp/static_arr_in_cpp.hpp"
 #include "ep58_func_ptr_in_cpp/func_ptr_in_cpp.hpp"
+#include "ep61_namespace_in_cpp/namespace_in_cpp.hpp"
+#include "ep62_threads_in_cpp/threads_in_cpp.hpp"
 
 int main() {
 //  test_main();
@@ -64,7 +66,9 @@ int main() {
 //  auto_kw_in_cpp_main();
 //  static_arr_in_cpp_main();
 //  func_ptr_in_cpp_main();
-  func_ptr_in_cpp_main_2();
+//  func_ptr_in_cpp_main_2();
+//  namespace_in_cpp_main();
+  threads_in_cpp_main();
 
   return 0;
 }
